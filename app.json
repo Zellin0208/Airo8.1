@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Cabanos8.1_MessageApp",
-    "slug": "Cabanos8.1_MessageApp",
+    "slug": "cabanos8-1-messageapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.renzo123.cabanos81messageapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8952c03d-044c-4f6b-b1d3-eaa666999ec3"
+      }
     }
   }
 }
